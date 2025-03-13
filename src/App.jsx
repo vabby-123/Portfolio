@@ -10,7 +10,9 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  
 } from "./components";
+import Voiceflow from "./components/Voiceflow";
 
 // App
 const App = () => {
@@ -19,6 +21,7 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
+          <Voiceflow/>
           <Hero />
         </div>
         <About />
