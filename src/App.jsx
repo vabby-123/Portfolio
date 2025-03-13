@@ -18,10 +18,11 @@ import Voiceflow from "./components/Voiceflow";
 const App = () => {
   return (
     <BrowserRouter>
+    <Voiceflow/>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Voiceflow/>
+          
           <Hero />
         </div>
         <About />

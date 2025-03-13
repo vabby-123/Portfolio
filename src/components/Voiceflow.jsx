@@ -2,6 +2,9 @@ import { useEffect } from "react";
 
 const Voiceflow = () => {
   useEffect(() => {
+   
+
+
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
