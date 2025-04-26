@@ -45,11 +45,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "",
-  },
+
 ];
 
 // Services
@@ -59,11 +55,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Engineer",
     icon: mobile,
   },
   {
-    title: "Web Developer",
+    title: "Mobile and Web Developer",
     icon: backend,
   },
   {

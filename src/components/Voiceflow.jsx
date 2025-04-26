@@ -12,7 +12,7 @@ const Voiceflow = () => {
     
     script.onload = () => {
       window.voiceflow?.chat.load({
-        verify: { projectID: "67d06ab2a7544b327ca5d7b5" },
+        verify: { projectID: "680d1d83ad1fd33749d5c94c" },
         url: "https://general-runtime.voiceflow.com",
         versionID: "production",
         voice: {
