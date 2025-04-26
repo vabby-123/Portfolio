@@ -81,6 +81,12 @@ const Contact = () => {
     setLoading(true);
 
     // send email
+    console.log({
+      serviceId: import.meta.env.VITE_APP_SERVICE_ID,
+      templateId: import.meta.env.VITE_APP_TEMPLATE_ID,
+      publicKey: import.meta.env.VITE_APP_EMAILJS_KEY,
+      receiver: import.meta.env.VITE_APP_EMAILJS_RECIEVER
+    });
     emailjs
       .send(
         import.meta.env.VITE_APP_SERVICE_ID,
